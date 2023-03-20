@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Basic Website</title>
+	<meta charset="UTF-8">
+	<title>Taco Store - Best Tacos in Town</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Basic Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tincidunt mauris, in porttitor velit. Donec euismod est vel tortor consequat, at aliquet lectus iaculis.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea><br><br>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Basic Website</p>
-    </footer>
-</body>
-</html>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#location">Location</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="banner">
+			<h1>Taco Store</h1>
+			<p>Best Tacos in Town</p>
+			<a href="#menu" class="btn">View Menu</a>
+		</section>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a family-owned taco store that serves the best tacos in town. Our secret recipe has been passed down for generations, and we only use the freshest ingredients. Come try our delicious tacos today!</p>
+			<img src="taco-store.jpg" alt="Taco Store" class="img-right">
+		</section>
+		<section id="menu">
+			<h2>Menu</h2>
+			<div class="menu-item">
+				<img src="taco-1.jpg" alt="Taco 1">
+				<h3>Taco 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tincidunt mauris, in porttitor velit. Donec euismod est vel tortor consequat, at aliquet lectus iaculis.</p>
+				<span class="price">$3.99</span>
+			</div>
+			<div class="menu-item">
+				<img src="taco-2.jpg" alt="Taco 2">
+				<h3>Taco 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tincidunt mauris, in porttitor velit. Donec euismod est vel tortor consequat, at aliquet lectus iaculis.</p>
+				<span class="price">$4.99</span>
+			</div>
+			<div class="menu-item">
+				<img src="taco-3.jpg" alt="Taco 3">
+				<h3>Taco 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tincidunt mauris, in porttitor velit. Donec euismod est vel tortor consequat, at aliquet lectus iaculis.</p>
+				<span class="price">$5.99</span>
+			</div>
+		</section>
+		<section id="location">
+			<h2>Location</h2>
+			<p>We are located at:</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.524332808523!2d-118.30808684979069!3d34.063611980596936!2m3!1f0!2f
 
+            
